@@ -49,7 +49,7 @@ const Card = (props) => {
 <p className='mt-2 text-white' >{course.description}
 {
   course.description.length>100 ?
-  (course.description.substr(0,60)) + "..." :
+  (course.description.substr(0,50)) + "..." :
   (course.description)
 }
 </p>
